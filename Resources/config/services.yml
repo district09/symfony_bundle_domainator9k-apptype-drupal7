@@ -1,0 +1,5 @@
+services:
+    digip_deploy.application_type.drupal7:
+        class: DigipolisGent\Domainator9k\AppTypes\DrupalSevenBundle\ApplicationType\Drupal7AppType
+        tags:
+            - { name: digip_deploy.type, slug: 'drupal7' }
