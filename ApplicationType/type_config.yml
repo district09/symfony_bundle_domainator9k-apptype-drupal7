@@ -18,7 +18,6 @@ additional_config: |
  $config['user.flood']['user_limit'] = 10;
  $config['user.flood']['user_window'] = 10800;
  $settings['allow_authorize_operations'] = FALSE;
- FROM YML CONFIG
 
 directories: #allows the use of [[user]]
   - "/home/[[user]]/.drush"
