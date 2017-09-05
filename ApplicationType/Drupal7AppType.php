@@ -2,7 +2,7 @@
 
 namespace DigipolisGent\Domainator9k\AppTypes\DrupalSevenBundle\ApplicationType;
 
-use Digip\AppDeployBundle\Entity\BaseAppType;
+use DigipolisGent\Domainator9k\CoreBundle\Entity\BaseAppType;
 use DigipolisGent\Domainator9k\AppTypes\DrupalSevenBundle\Entity\DrupalSevenSettings;
 use DigipolisGent\Domainator9k\AppTypes\DrupalSevenBundle\Form\DrupalSevenSettingsType;
 use Digip\DeployBundle\Entity\Settings;
