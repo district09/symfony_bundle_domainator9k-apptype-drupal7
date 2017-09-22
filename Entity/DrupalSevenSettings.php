@@ -30,7 +30,7 @@ class DrupalSevenSettings
     protected $installProfile;
 
     /**
-     * @ORM\ManyToOne(targetEntity="Digip\DeployBundle\Entity\Application")
+     * @ORM\ManyToOne(targetEntity="DigipolisGent\Domainator9k\CoreBundle\Entity\Application")
      * @ORM\JoinColumn(name="application_id", referencedColumnName="id")
      **/
     protected $application;

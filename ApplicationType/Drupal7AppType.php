@@ -5,8 +5,8 @@ namespace DigipolisGent\Domainator9k\AppTypes\DrupalSevenBundle\ApplicationType;
 use DigipolisGent\Domainator9k\CoreBundle\Entity\BaseAppType;
 use DigipolisGent\Domainator9k\AppTypes\DrupalSevenBundle\Entity\DrupalSevenSettings;
 use DigipolisGent\Domainator9k\AppTypes\DrupalSevenBundle\Form\DrupalSevenSettingsType;
-use Digip\DeployBundle\Entity\Settings;
-use Digip\DeployBundle\Entity\AppEnvironment;
+use DigipolisGent\Domainator9k\CoreBundle\Entity\Settings;
+use DigipolisGent\Domainator9k\CoreBundle\Entity\AppEnvironment;
 
 class Drupal7AppType extends BaseAppType
 {
