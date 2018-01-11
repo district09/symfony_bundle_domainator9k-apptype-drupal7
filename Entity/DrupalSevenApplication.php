@@ -47,4 +47,15 @@ class DrupalSevenApplication extends AbstractApplication
     {
         $this->installProfile = $installProfile;
     }
+
+    /**
+     * @return array
+     */
+    public static function getTemplateReplacements(): array
+    {
+        $templateReplacements = parent::getTemplateReplacements();
+        $templateReplacements['installProfile()'] =  'getInstallProfile()';
+
+        return $templateReplacements;
+    }
 }
