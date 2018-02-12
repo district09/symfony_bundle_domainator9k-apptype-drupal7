@@ -2,6 +2,7 @@
 
 namespace DigipolisGent\Domainator9k\AppTypes\DrupalSevenBundle\Entity;
 
+use DigipolisGent\Domainator9k\AppTypes\DrupalSevenBundle\Form\Type\DrupalSevenApplicationFormType;
 use DigipolisGent\Domainator9k\CoreBundle\Entity\AbstractApplication;
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\Validator\Constraints as Assert;
@@ -26,10 +27,20 @@ class DrupalSevenApplication extends AbstractApplication
      */
     protected $installProfile;
 
-
-    public static function getType()
+    /**
+     * @return string
+     */
+    public static function getApplicationType(): string
     {
         return self::TYPE;
+    }
+
+    /**
+     * @return string
+     */
+    public static function getFormType(): string
+    {
+        return DrupalSevenApplicationFormType::class;
     }
 
     /**
@@ -54,7 +65,7 @@ class DrupalSevenApplication extends AbstractApplication
     public static function getTemplateReplacements(): array
     {
         $templateReplacements = parent::getTemplateReplacements();
-        $templateReplacements['installProfile()'] =  'getInstallProfile()';
+        $templateReplacements['installProfile()'] = 'getInstallProfile()';
 
         return $templateReplacements;
     }
