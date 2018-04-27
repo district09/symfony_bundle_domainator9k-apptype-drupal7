@@ -13,6 +13,7 @@ use Symfony\Component\Validator\Constraints as Assert;
  * @package DigipolisGent\Domainator9k\AppTypes\DrupalSevenBundle
  *
  * @ORM\Entity()
+ * @ORM\Table(name="drupal_seven_application")
  */
 class DrupalSevenApplication extends AbstractApplication
 {
