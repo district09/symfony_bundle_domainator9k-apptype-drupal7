@@ -1,0 +1,6 @@
+services:
+    _defaults:
+        autowire: true
+    DigipolisGent\Domainator9k\AppTypes\DrupalSevenBundle\CacheClearer:
+        tags:
+            - {name: domainator.cacheclearer, for: DigipolisGent\Domainator9k\AppTypes\DrupalSevenBundle\Entity\DrupalSevenApplication}
