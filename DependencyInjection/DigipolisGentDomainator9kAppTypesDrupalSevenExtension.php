@@ -13,7 +13,7 @@ use Symfony\Component\HttpKernel\DependencyInjection\Extension;
  * @see http://symfony.com/doc/current/cookbook/bundles/extension.html
  * @codeCoverageIgnore
  */
-class DigipolisGentDomainator9kAppTypeDrupalSevenExtension extends Extension
+class DigipolisGentDomainator9kAppTypesDrupalSevenExtension extends Extension
 {
 
     /**
