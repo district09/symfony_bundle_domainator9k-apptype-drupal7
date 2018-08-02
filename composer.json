@@ -7,7 +7,8 @@
   "support": {},
   "minimum-stability": "dev",
   "require": {
-    "php": ">=7.1"
+    "php": ">=7.1",
+    "digipolisgent/domainator9k-core-bundle": "^1.0.0"
   },
   "require-dev": {
     "symfony/symfony": ">=3.4"
