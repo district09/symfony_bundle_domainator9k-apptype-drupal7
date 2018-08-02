@@ -1,5 +1,6 @@
 services:
-    digip_deploy.application_type.drupal7:
-        class: DigipolisGent\Domainator9k\AppTypes\DrupalSevenBundle\ApplicationType\Drupal7AppType
+    _defaults:
+        autowire: true
+    DigipolisGent\Domainator9k\AppTypes\DrupalSevenBundle\CacheClearer\DrupalSevenCacheClearer:
         tags:
-            - { name: digip_deploy.type, slug: 'drupal7' }
+            - {name: domainator.cacheclearer, for: DigipolisGent\Domainator9k\AppTypes\DrupalSevenBundle\Entity\DrupalSevenApplication}
