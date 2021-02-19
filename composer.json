@@ -10,9 +10,6 @@
     "php": ">=7.1",
     "digipolisgent/domainator9k-core-bundle": "dev-develop"
   },
-  "require-dev": {
-    "symfony/symfony": "^4.0"
-  },
   "autoload": {
     "psr-4": {
       "DigipolisGent\\Domainator9k\\AppTypes\\DrupalSevenBundle\\": ""
