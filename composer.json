@@ -8,7 +8,7 @@
   "minimum-stability": "dev",
   "require": {
     "php": ">=7.1",
-    "digipolisgent/domainator9k-core-bundle": "dev-develop"
+    "digipolisgent/domainator9k-core-bundle": "^2.0"
   },
   "autoload": {
     "psr-4": {
