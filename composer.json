@@ -8,7 +8,7 @@
   "minimum-stability": "dev",
   "require": {
     "php": ">=7.1",
-    "digipolisgent/domainator9k-core-bundle": "^3.0|dev-feature/symfony5"
+    "digipolisgent/domainator9k-core-bundle": "^3.0"
   },
   "autoload": {
     "psr-4": {
