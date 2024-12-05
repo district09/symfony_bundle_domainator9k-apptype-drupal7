@@ -11,10 +11,9 @@ use Symfony\Component\Validator\Constraints as Assert;
 /**
  * Class DrupalSevenApplication
  * @package DigipolisGent\Domainator9k\AppTypes\DrupalSevenBundle
- *
- * @ORM\Entity()
- * @ORM\Table(name="drupal_seven_application")
  */
+#[ORM\Table(name: 'drupal_seven_application')]
+#[ORM\Entity]
 class DrupalSevenApplication extends AbstractApplication
 {
 
@@ -22,10 +21,10 @@ class DrupalSevenApplication extends AbstractApplication
 
     /**
      * @var string
-     * @ORM\Column(type="string", nullable=true)
-     * @Assert\NotBlank()
-     * @Assert\Length(min="2", max="255")
      */
+    #[ORM\Column(type: 'string', nullable: true)]
+    #[Assert\NotBlank]
+    #[Assert\Length(min: 2, max: 255)]
     protected $installProfile;
 
     /**
