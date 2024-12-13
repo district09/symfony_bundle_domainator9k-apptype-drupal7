@@ -8,11 +8,11 @@
   "minimum-stability": "dev",
   "require": {
     "php": ">=7.1",
-    "digipolisgent/domainator9k-core-bundle": "^3.0"
+    "digipolisgent/domainator9k-core-bundle": "^4.0"
   },
   "autoload": {
     "psr-4": {
-      "DigipolisGent\\Domainator9k\\AppTypes\\DrupalSevenBundle\\": ""
+      "DigipolisGent\\Domainator9k\\AppTypes\\DrupalSevenBundle\\": "src"
     }
   }
 }
